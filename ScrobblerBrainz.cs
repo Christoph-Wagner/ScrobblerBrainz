@@ -55,7 +55,7 @@ namespace MusicBeePlugin
             about.TargetApplication = "";   //  the name of a Plugin Storage device or panel header for a dockable panel
             about.Type = PluginType.General;
 
-            about.MinInterfaceVersion = 60;
+            about.MinInterfaceVersion = 30;
             about.MinApiRevision = 40;
             about.ReceiveNotifications = (ReceiveNotificationFlags.PlayerEvents | ReceiveNotificationFlags.TagEvents);
             about.ConfigurationPanelHeight = 60;   // height in pixels that musicbee should reserve in a panel for config settings. When set, a handle to an empty panel will be passed to the Configure function
